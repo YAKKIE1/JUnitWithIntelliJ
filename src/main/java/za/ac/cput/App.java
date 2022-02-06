@@ -14,6 +14,6 @@ public class App
         Book a = new Book("Chi", 250);
         Book c = new Book("pom", 100);
 
-        System.out.println(b.checkout(5));
+        System.out.println(b.totalItemAmount(5));
     }
 }

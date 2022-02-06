@@ -25,7 +25,7 @@ public class Book {
         this.price = price;
     }
 
-    public int checkout(int quantity){
+    public int totalItemAmount(int quantity){
         return getPrice() * quantity;
     }
 }
